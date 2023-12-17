@@ -3,12 +3,99 @@
   margin: 0;
   box-sizing: border-box;
 }
-.vertical-text {
+header {
+  background-color: bisque;
   width: 100%;
-  height: 100px;
-  background-color: aqua;
-  color: darkred;
+  height: 50px;
+  padding-top: 6px;
 }
-.vertical-text h1{
+header .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+header .container .h1-title h1 a {
+  text-decoration: none;
+  color:black;
+}
+header .container .navbar-list ul{
+
+  list-style-type: none;
+  display: flex;
+  justify-content:space-evenly;
+
+}
+header .container .navbar-list ul li a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 120%;
+}
+.line {
+  height: 100px;
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  line-height: 140px;
+  /* text-align: center; */
+}
+.line .box {
+  background-color: burlywood;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  display: inline-block;
+  /* line-height: 50%; */
+}
+.quti .jam {
+  width: 1240px;
+  margin: 0 auto;
+}
+.quti {
+  height: 150vh;
+  background-color: darkcyan;
+  color: whitesmoke;
+}
+.quti .quti-bir {
+  height: 70px;
   text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+  margin-top: 1px;
+}
+.quti .quti-header {
+  background-color: black;
+  width: 100%;
+}
+.quti .quti-nav {
+  background-color: firebrick;
+}
+.quti .quti-section {
+  background-color: violet;
+  color: black;
+  height: 500px;
+  width: 70%;
+  float: left;
+  line-height: 500px;
+  font-size: 50px;
+}
+.quti .quti-aside {
+  background-color: gray;
+  height: 500px;
+  line-height: 500px;
+  width: 30%;
+  float: left;
+}
+.quti .quti-footer {
+  /* background-color: black; */
+  background-color: black;
+  color: white;
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  text-align: center;
+  font-size: xx-large;
+  float: left;
+  margin-top: 5px;
 }
